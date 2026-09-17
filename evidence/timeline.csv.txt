@@ -1,0 +1,16 @@
+time,event,source_ip,account,evidence_type
+08:15:01,Authentication failures begin,185.220.101.10,alice,Evidence
+08:15:03,Authentication failure,185.220.101.10,bob,Evidence
+08:15:05,Authentication failure,185.220.101.10,charlie,Evidence
+08:15:07,Authentication failure,185.220.101.10,david,Evidence
+08:15:09,Authentication failure,185.220.101.10,emma,Evidence
+08:16:10,Second authentication wave begins,185.220.101.10,alice,Evidence
+08:20:02,Repeated failed logins begin,10.10.10.50,alice,Evidence
+08:20:10,Fifth failed login,10.10.10.50,alice,Evidence
+08:21:02,Successful login after failures,10.10.10.50,alice,Evidence
+08:22:15,VPN access,10.10.10.50,alice,Evidence
+08:24:11,Admin panel access,10.10.10.50,alice,Evidence
+08:30:00,Service account successful login,203.0.113.45,service_account,Evidence
+08:30:20,Database admin access,203.0.113.45,service_account,Evidence
+08:31:02,Configuration access,203.0.113.45,service_account,Evidence
+08:32:10,Service account logout,203.0.113.45,service_account,Evidence
